@@ -1,2 +1,5 @@
-# BOJ_Study
-백준 문제풀이
+# 
+# generate_readme_automatically
+
+---
+### [TIL](./TIL/1001_hello.py)
