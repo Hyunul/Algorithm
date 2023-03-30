@@ -1,13 +1,11 @@
 # 
-# generate_readme_automatically
+# 백준 & 프로그래머스 문제 풀이 목록
 
----
-### 백준
+프로그래머스의 경우, 푼 문제 목록에 대한 마이그레이션이 필요합니다.
 
-### Bronze
-- [1000. A＋B](./%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/README.md)
-- [1000. A＋B](./%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/A%EF%BC%8BB.py)
-
-- [20492. 세금](./%EB%B0%B1%EC%A4%80/Bronze/20492.%E2%80%85%EC%84%B8%EA%B8%88/README.md)
-- [20492. 세금](./%EB%B0%B1%EC%A4%80/Bronze/20492.%E2%80%85%EC%84%B8%EA%B8%88/%EC%84%B8%EA%B8%88.py)
-
+## 📚 백준
+### 🚀 Bronze
+| 문제번호 | 링크 |
+| ----- | ----- |
+|1000. A＋B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/README.md)|
+|20492. 세금|[링크](./%EB%B0%B1%EC%A4%80/Bronze/20492.%E2%80%85%EC%84%B8%EA%B8%88/README.md)|
