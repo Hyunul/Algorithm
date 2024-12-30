@@ -8,6 +8,7 @@
 | 문제번호 | 링크 |
 | ----- | ----- |
 |1000. A＋B|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1000.%E2%80%85A%EF%BC%8BB/README.md)|
+|1075. 나누기|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1075.%E2%80%85%EB%82%98%EB%88%84%EA%B8%B0/README.md)|
 |10769. 행복한지 슬픈지|[링크](./%EB%B0%B1%EC%A4%80/Bronze/10769.%E2%80%85%ED%96%89%EB%B3%B5%ED%95%9C%EC%A7%80%E2%80%85%EC%8A%AC%ED%94%88%EC%A7%80/README.md)|
 |1259. 팰린드롬수|[링크](./%EB%B0%B1%EC%A4%80/Bronze/1259.%E2%80%85%ED%8C%B0%EB%A6%B0%EB%93%9C%EB%A1%AC%EC%88%98/README.md)|
 |12780. 원피스|[링크](./%EB%B0%B1%EC%A4%80/Bronze/12780.%E2%80%85%EC%9B%90%ED%94%BC%EC%8A%A4/README.md)|
