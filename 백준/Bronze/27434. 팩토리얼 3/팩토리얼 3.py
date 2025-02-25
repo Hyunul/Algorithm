@@ -1,4 +1,6 @@
 import sys
+
+# Recursion Err 대응
 sys.setrecursionlimit(10**6)
 
 n = int(input())
