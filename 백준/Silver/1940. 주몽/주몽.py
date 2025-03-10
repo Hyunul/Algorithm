@@ -1,11 +1,23 @@
+import sys
+input = sys.stdin.readline
+
 n = int(input())
 m = int(input())
-n_list = list(map(int, input().split()))
+nums = list(map(int,input().split()))
 
-cnt = 0
+nums.sort()
+left, right = 0, len(nums) - 1
+count = 0
 
-for i in range(n-1):
-    for j in range(i+1, n):
-        if n_list[i] + n_list[j] == m:
-            cnt += 1
-print(cnt)
+while left < right:
+    sum_num = nums[left] + nums[right]
+    if sum_num < m:
+        left += 1
+    elif sum_num > m:
+        right -= 1
+    else:
+        count += 1
+        left += 1
+        right -= 1
+
+print(count)
