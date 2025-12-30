@@ -6,4 +6,4 @@ nums = [int(input()) for _ in range(n)]
 
 nums.sort()
 
-sys.stdout.write('\n'.join(map(str, nums)))
+print('\n'.join(map(str, nums)))
