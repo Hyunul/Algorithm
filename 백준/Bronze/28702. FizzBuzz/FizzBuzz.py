@@ -11,12 +11,8 @@ def calc(i):
     else:
         print(i)
 
-arr = []
-for _ in range(3):
-    n = input().rstrip()
-    arr.append(n)
-
 for i in range(3):
-    if arr[i].isdigit():
-        calc(int(arr[i]) + (3 - i))
+    s = input().rstrip()
+    if s.isdigit():
+        calc(int(s) + (3 - i))
         break
