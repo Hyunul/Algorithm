@@ -4,15 +4,15 @@ input = sys.stdin.readline
 n = int(input())
 
 for _ in range(n):
-    arr = []
-    cmd = list(input().strip())
-    try:
-        for i in cmd:
-            if i == '(':
-                arr.append(i)
-            else:
-                arr.pop()
-    except:
-        print("NO")
-        continue
-    print("NO" if len(arr) > 0 else "YES")
+    cmd = input().strip()
+    cnt = 0
+    valid = True
+    for i in cmd:
+        if i == '(':
+            cnt += 1
+        else:
+            if cnt == 0:
+                valid = False
+                break
+            cnt -= 1
+    print("YES" if valid and cnt == 0 else "NO")
