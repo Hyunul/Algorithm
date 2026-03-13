@@ -2,13 +2,12 @@ import sys
 input = sys.stdin.readline
 
 n = int(input())
-members = []
-
+arr = []
 for _ in range(n):
-    age, name = input().split()
-    members.append((int(age), name))
+    a, b = input().strip().split()
+    arr.append((int(a), b))
 
-members.sort(key=lambda x: x[0])
+arr.sort(key=lambda x: x[0])
 
-for member in members:
-    print(member[0], member[1])
+for item in arr:
+    print(item[0], item[1])
