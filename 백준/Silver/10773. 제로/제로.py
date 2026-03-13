@@ -6,8 +6,5 @@ n = int(input())
 arr = []
 for _ in range(n):
     cmd = int(input())
-    if cmd == 0:
-        arr.pop()
-    else:
-        arr.append(cmd)
+    arr.pop() if cmd == 0 else arr.append(cmd)
 print(sum(arr))
