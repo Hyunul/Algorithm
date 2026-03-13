@@ -2,8 +2,12 @@ import sys
 input = sys.stdin.readline
 
 n = int(input())
-nums = [int(input()) for _ in range(n)]
+arr = []
+for _ in range(n):
+    cmd = int(input())
+    arr.append(cmd)
 
-nums.sort()
+arr.sort(reverse=False)
 
-print('\n'.join(map(str, nums)))
+for item in arr:
+    print(item)
