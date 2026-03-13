@@ -1,8 +1,12 @@
-n = int(input())
-n_list = []
-for i in range(n):
-    n_list.append(int(input()))
-n_list = sorted(n_list)
+import sys
+input = sys.stdin.readline
 
-for j in range(n):
-    print(n_list[j])
+n = int(input())
+arr = []
+for _ in range(n):
+    cmd = int(input())
+    arr.append(cmd)
+arr.sort()
+
+for item in arr:
+    print(item)
