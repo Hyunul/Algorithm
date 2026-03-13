@@ -9,5 +9,4 @@ for _ in range(n):
 
 arr.sort(reverse=False)
 
-for item in arr:
-    print(item)
+sys.stdout.write("\n".join(map(str, arr)))
