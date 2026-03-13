@@ -1,30 +1,21 @@
 import sys
-
 input = sys.stdin.readline
 
 n = int(input())
-l = []
+st = []
+for _ in range(n):
+    cmd = input().strip().split()
 
-for i in range(n):
-    a = input().strip()
-    
-    if a.startswith("push"):
-        _, b = a.split()
-        l.append(b)
-    elif a == "pop":
-        if len(l) == 0:
-            print("-1")
+    if cmd[0] == 'push':
+        st.append(cmd[1])
+    elif cmd[0] == 'pop':
+        if len(st) > 0:
+            print(st.pop())
         else:
-            print(l.pop())
-    elif a == "size":
-        print(len(l))
-    elif a == "empty":
-        if len(l) == 0:
-            print("1")
-        else:
-            print("0")
-    elif a == "top":
-        if len(l) == 0:
-            print("-1")
-        else:
-            print(l[-1])
+            print('-1')
+    elif cmd[0] == 'size':
+        print(len(st))
+    elif cmd[0] == 'empty':
+        print(0 if len(st) > 0 else 1)
+    elif cmd[0] == 'top':
+        print(st[-1] if len(st) > 0 else -1)
