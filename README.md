@@ -90,6 +90,7 @@
 |4998. 저금|[링크](./%EB%B0%B1%EC%A4%80/Bronze/4998.%E2%80%85%EC%A0%80%EA%B8%88/README.md)|
 |5598. 카이사르 암호|[링크](./%EB%B0%B1%EC%A4%80/Bronze/5598.%E2%80%85%EC%B9%B4%EC%9D%B4%EC%82%AC%EB%A5%B4%E2%80%85%EC%95%94%ED%98%B8/README.md)|
 |5717. 상근이의 친구들|[링크](./%EB%B0%B1%EC%A4%80/Bronze/5717.%E2%80%85%EC%83%81%EA%B7%BC%EC%9D%B4%EC%9D%98%E2%80%85%EC%B9%9C%EA%B5%AC%EB%93%A4/README.md)|
+|8958. OX퀴즈|[링크](./%EB%B0%B1%EC%A4%80/Bronze/8958.%E2%80%85OX%ED%80%B4%EC%A6%88/README.md)|
 |9046. 복호화|[링크](./%EB%B0%B1%EC%A4%80/Bronze/9046.%E2%80%85%EB%B3%B5%ED%98%B8%ED%99%94/README.md)|
 ### 🚀 Silver
 | 문제번호 | 링크 |
