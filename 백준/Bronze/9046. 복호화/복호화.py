@@ -1,10 +1,17 @@
-from collections import Counter
+import sys
+input = sys.stdin.readline
 
 n = int(input())
-for i in range(n):
-    enc_str = input().replace(" ", "")
-    cnt = Counter(enc_str).most_common()
-    if len(cnt) > 1 and cnt[0][1] == cnt[1][1]:
-        print("?")
+
+for _ in range(n):
+    s = input().strip()
+    cnt = [0] * 26
+
+    for ch in s:
+        if ch != ' ':
+            cnt[ord(ch) - ord('a')] += 1
+    max_count = max(cnt)
+    if cnt.count(max_count) > 1:
+        print('?')
     else:
-        print(cnt[0][0])
+        print(chr(cnt.index(max_count) + ord('a')))
