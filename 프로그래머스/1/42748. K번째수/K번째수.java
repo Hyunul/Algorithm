@@ -1,19 +1,15 @@
 import java.util.*;
 
 class Solution {
-    public int[] solution(int[] array, int[][] commands) {
-        int[] answer = new int[commands.length];
+    public ArrayList<Integer> solution(int[] array, int[][] commands) {
+        ArrayList<Integer> answer = new ArrayList<>();
         
-        for (int i = 0; i < commands.length; i++) {
-            int start = commands[i][0] - 1; // 1이면 인덱스 0부터 시작
-            int end = commands[i][1];
-            int k = commands[i][2] - 1;
-            
-            int[] temp = Arrays.copyOfRange(array, start, end);
-            Arrays.sort(temp);
-            
-            answer[i] = temp[k];
+        for (int[] command : commands) {
+            int[] temp_arr = Arrays.copyOfRange(array, command[0]-1, command[1]);
+            Arrays.sort(temp_arr);
+            answer.add(temp_arr[command[2]-1]);
         }
+        
         return answer;
     }
 }
